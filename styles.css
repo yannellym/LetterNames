@@ -1,51 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #040663;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  color: #00cf23;
+  font-family: 'Bungee', cursive;
+  text-shadow: 3px 0 #560dff;
 
 }
 
-footer {
-  color: #DBEDF3;
+footer > p {
+  color: #29ce00;
   font-family: sans-serif;
-}
-
-.w {
-  background-image: url("images/tom1.png");
+  margin-bottom: 5%;
 }
 
 .a {
-  background-image: url("images/tom2.png");
+  background-image: url("images/apple.jpg");
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
-.s {
-  background-image: url("images/tom3.png");
+.b{
+  background-image: url("images/baseball.jpg");
+  background-size: cover;
 }
 
+.c {
+  background-image: url("images/clock.jpg");
+  background-size: cover;
+}
 .d {
-  background-image: url("images/tom4.png");
+  background-image: url("images/donkey.jpg");
+  background-size: 130px;
+  background-repeat: no-repeat;
 }
 
-.j {
-  background-image: url("images/snare.png");
+.e {
+  background-image: url("images/elephant.jpg");
+  background-size: 130px;
+  background-repeat: no-repeat;
 }
 
-.k {
-  background-image: url("images/crash.png");
+.f{
+  background-image: url("images/father.jpg");
+  background-size: cover;
 }
 
+.g{
+  background-image: url("images/grandmother.jpg");
+  background-size: cover;
+}
+.h {
+  background-image: url("images/hungry.jpg");
+  background-size: 130px;
+  background-repeat: no-repeat;
+}
+
+.i{
+  background-image: url("images/internet.jpg");
+  background-size: cover;
+}
+
+.j{
+  background-image: url("images/justice.jpg");
+  background-size: cover;
+}
+.k{
+  background-image: url("images/kangaroo.jpg");
+  background-size: 180px;
+  background-repeat: no-repeat;
+}
 .l {
-  background-image: url("images/kick.png");
+  background-image: url("images/london.jpg");
+  background-size: 130px;
+  background-repeat: no-repeat;
 }
 
-.set {
-  margin: 10% auto;
+.m{
+  background-image: url("images/monkey.jpg");
+  background-size: 90px;
+  background-repeat: no-repeat;
+}
+
+.n{
+  background-image: url("images/norway.jpg");
+  background-size: cover;
+}
+.o{
+  background-image: url("images/overtime.jpg");
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.p{
+  background-image: url("images/pillow.jpg");
+  background-size: cover;
+}
+.q{
+  background-image: url("images/question.jpg");
+  background-size: 140px;
+  background-repeat: no-repeat;
+}
+.r {
+  background-image: url("images/rabbit.jpg");
+  background-size: 130px;
+  background-repeat: no-repeat;
+}
+
+.s{
+  background-image: url("images/superman.jpg");
+  background-size: 90px;
+  background-repeat: no-repeat;
+}
+
+.t{
+  background-image: url("images/telephone.jpg");
+  background-size: cover;
+}
+.u{
+  background-image: url("images/underwear.jpg");
+  background-size: 130px;
+  background-repeat: no-repeat;
+}
+.v{
+  background-image: url("images/vaccinate.jpg");
+  background-size: cover;
+}
+.w {
+  background-image: url("images/www.jpg");
+  background-size: 130px;
+  background-repeat: no-repeat;
+}
+
+.x{
+  background-image: url("images/xylophone.jpg");
+  background-size: 130px;
+  background-repeat: no-repeat;
+}
+
+.y{
+  background-image: url("images/yogurt.jpg");
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+.z{
+  background-image: url("images/zebra.jpg");
+  background-size: cover;
+}
+.instructions {
+  color: white;
+  font-size: 22px;
+}
+
+
+.letterSet {
+  margin: 3% auto;
 }
 
 .game-over {
@@ -62,19 +176,19 @@ footer {
   color: red;
 }
 
-.drum {
+.letter{
   outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
-  font-family: 'Arvo', cursive;
+  border: 10px solid #00cf23;
+  font-size: 4rem;
+  font-family: sans-serif;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
+  color: #560dff;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   text-align: center;
   margin: 10px;
   background-color: white;
