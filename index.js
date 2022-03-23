@@ -1,4 +1,4 @@
-/ This detects when a button is being pressed
+// This detects when a button is being pressed
 
 const numOfLetters = document.querySelectorAll('.letter').length;
 for (var i = 0; i < numOfLetters; i++) {
