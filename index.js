@@ -1,5 +1,4 @@
-
-// This detects when a button is being pressed
+/ This detects when a button is being pressed
 
 const numOfLetters = document.querySelectorAll('.letter').length;
 for (var i = 0; i < numOfLetters; i++) {
@@ -14,6 +13,7 @@ for (var i = 0; i < numOfLetters; i++) {
 // Handle Keyboard Key Presses
 document.addEventListener("keydown", function (event) {
     var key = event.key;
+    console.log(key)
     playSound(key);
 });
 
@@ -22,108 +22,108 @@ document.addEventListener("keydown", function (event) {
 function playSound(key) {
 
     switch (key) {     //switches depending on key clicked
-        case "Aa": 
+        case "a": 
           var letterA = new Audio("sounds/a.mp3");
             letterA.play();
           console.log("clicked")
             break;
-        case "Bb":
+        case "b":
           var letterB = new Audio("sounds/b.mp3");
             letterB.play();
             break;
-        case "Cc":
+        case "c":
           var letterC = new Audio("sounds/c.mp3");
           letterC.play();
             break;
-        case "Dd": 
+        case "d": 
           let letterD = new Audio("sounds/d.mp3");
           letterD.play();
             break;
-        case "Ee":
+        case "e":
           let letterE = new Audio("sounds/e.mp3");
           letterE.play();
             break;
-        case "Ff":
+        case "f":
           let letterF = new Audio("sounds/f.mp3");
           letterF.play();
             break;
-        case "Gg": 
+        case "g": 
           let letterG = new Audio("sounds/g.mp3");
           letterG.play();
             break;
-        case "Hh":
+        case "h":
           let letterH = new Audio("sounds/g.mp3");
           letterH.play();
             break;
-        case "Ii":
+        case "i":
           let letterI = new Audio("sounds/i.mp3");
           letterI.play();
             break;
-        case "Jj": 
+        case "j": 
           let letterJ = new Audio("sounds/j.mp3");
           letterJ.play();
             break;
-        case "Kk":
+        case "k":
           let letterK = new Audio("sounds/k.mp3");
           letterK.play();
             break;
-        case "Ll":
+        case "l":
           let letterL = new Audio("sounds/l.mp3");
           letterL.play();
           break;
-        case "Mm": 
+        case "m": 
           let letterM = new Audio("sounds/m.mp3");
           letterM.play();
             break;
-        case "Nn":
+        case "n":
           let letterN = new Audio("sounds/n.mp3");
           letterN.play();
             break;
-        case "Oo":
+        case "o":
           let letterO = new Audio("sounds/o.mp3");
           letterO.play();
             break;
-        case "Pp": 
+        case "p": 
           let letterP = new Audio("sounds/p.mp3");
           letterP.play();
             break;
-        case "Qq":
+        case "q":
           let letterQ = new Audio("sounds/q.mp3");
           letterQ.play();
             break;
-        case "Rr":
+        case "r":
           let letterR = new Audio("sounds/r.mp3");
           letterR.play();
           break;
-        case "Ss":
+        case "s":
           let letterS = new Audio("sounds/s.mp3");
           letterS.play();
           break;
-        case "Tt": 
+        case "t": 
           let letterT = new Audio("sounds/t.mp3");
           letterT.play();
             break;
-        case "Uu":
+        case "u":
           let letterU = new Audio("sounds/u.mp3");
           letterU.play();
             break;
-        case "Vv":
+        case "v":
           let letterV = new Audio("sounds/v.mp3");
           letterV.play();
           break;
-        case "Ww":
+        case "w":
           let letterW = new Audio("sounds/w.mp3");
           letterW.play();
           break;
-        case "Xx":
+        case "x":
           let letterX = new Audio("sounds/x.mp3");
           letterX.play();
             break;
-        case "Yy":
+        case "y":
           let letterY = new Audio("sounds/y.mp3");
           letterY.play();
           break;
-        case "Zz":
+        case "z":
           let letterZ = new Audio("sounds/z.mp3");
           letterZ.play();
           break;
@@ -133,8 +133,8 @@ function playSound(key) {
 }
 
 function handleButtonFlashing(key){
-  document.querySelector('.'+ key[0,1]).classList.add('pressed')
+  document.querySelector('.'+ key).classList.add('pressed')
   window.setTimeout(function (){
-      document.querySelector('.'+key[0,1]).classList.remove('pressed');
+      document.querySelector('.'+key).classList.remove('pressed');
   },200);
 }
